@@ -13,6 +13,7 @@
 		28DF6B331EB860A4003AFE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DF6B311EB860A4003AFE17 /* Main.storyboard */; };
 		28DF6B351EB860A4003AFE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DF6B341EB860A4003AFE17 /* Assets.xcassets */; };
 		28DF6B381EB860A4003AFE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DF6B361EB860A4003AFE17 /* LaunchScreen.storyboard */; };
+		28DF6B451EB86A7F003AFE17 /* JCGestureLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DF6B441EB86A7F003AFE17 /* JCGestureLock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		28DF6B341EB860A4003AFE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28DF6B371EB860A4003AFE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28DF6B391EB860A4003AFE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DF6B431EB86A7F003AFE17 /* JCGestureLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGestureLock.h; sourceTree = "<group>"; };
+		28DF6B441EB86A7F003AFE17 /* JCGestureLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGestureLock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				28DF6B2E1EB860A4003AFE17 /* ViewController.h */,
 				28DF6B2F1EB860A4003AFE17 /* ViewController.m */,
 				28DF6B311EB860A4003AFE17 /* Main.storyboard */,
+				28DF6B421EB86A7F003AFE17 /* JCGestureLock */,
 				28DF6B341EB860A4003AFE17 /* Assets.xcassets */,
 				28DF6B361EB860A4003AFE17 /* LaunchScreen.storyboard */,
 				28DF6B391EB860A4003AFE17 /* Info.plist */,
@@ -77,6 +81,15 @@
 				28DF6B291EB860A4003AFE17 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28DF6B421EB86A7F003AFE17 /* JCGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				28DF6B431EB86A7F003AFE17 /* JCGestureLock.h */,
+				28DF6B441EB86A7F003AFE17 /* JCGestureLock.m */,
+			);
+			path = JCGestureLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				28DF6B301EB860A4003AFE17 /* ViewController.m in Sources */,
 				28DF6B2D1EB860A4003AFE17 /* AppDelegate.m in Sources */,
 				28DF6B2A1EB860A4003AFE17 /* main.m in Sources */,
+				28DF6B451EB86A7F003AFE17 /* JCGestureLock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
